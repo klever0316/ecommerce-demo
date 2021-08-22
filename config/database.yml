@@ -83,3 +83,4 @@ production:
   database: ecommerce-demo_production
   username: ecommerce-demo
   password: <%= ENV['ECOMMERCE-DEMO_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
