@@ -35,7 +35,7 @@ A free, open-source ecommerce platform that gives you complete control over your
 * Provide admin and password data (e.g., admin@test.com) (e.g., test123)
 * Load sample app data:
 >    $ docker-compose run web rake spree_sample:load
-* Start system on localhost 3000:
+* Start system on localhost:3000
 >    $ docker-compose up
 
 ## Deployed App (Heroku)
