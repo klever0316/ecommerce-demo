@@ -68,7 +68,7 @@ https://ecommerce-solidus-demo.herokuapp.com/admin
 
 ## App Info
  
- * With the app you can have:
+With the app you can have:
   - An E-Commerce app ready to use with an admin page
   - Connection with Paypal to checkout orders
   - Add items to the cart (one or more), checkout and get delivery (adjustable on admin page)
