@@ -29,13 +29,13 @@ A free, open-source ecommerce platform that gives you complete control over your
 * Create database:
 >    $ docker-compose run web rake db:create
 * Migrate database:
->    $ docker-compose run app rails db:migrate
+>    $ docker-compose run web rails db:migrate
 * Fill database:
->    $ docker-compose run app rake db:seed
+>    $ docker-compose run web rake db:seed
 * Reload images files:
->    $ docker-compose run app rake assets:precompile
+>    $ docker-compose run web rake assets:precompile
 * Load sample app data:
->    $ docker-compose run app rake spree_sample:load
+>    $ docker-compose run web rake spree_sample:load
 * Start system on localhost 3000:
 >    $ docker-compose up
 
