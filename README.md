@@ -33,8 +33,6 @@ A free, open-source ecommerce platform that gives you complete control over your
 * Fill database:
 >    $ docker-compose run web rake db:seed
 * Provide admin and password data (e.g., admin@test.com) (e.g., test123)
-* Reload images files:
->    $ docker-compose run web rake assets:precompile
 * Load sample app data:
 >    $ docker-compose run web rake spree_sample:load
 * Start system on localhost 3000:
